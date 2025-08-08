@@ -1,0 +1,804 @@
+2025-08-08 07:37:25,171 - SimuladorCarga - INFO - === SIMULADOR DE CARGA FIREBIRD COM DIAGNÓSTICO ===
+2025-08-08 07:37:25,172 - SimuladorCarga - INFO - Usuário: RigobertoWLL
+2025-08-08 07:37:25,173 - SimuladorCarga - INFO - Data/Hora: 2025-08-07 20:08:01 UTC
+2025-08-08 07:37:25,173 - SimuladorCarga - INFO - Sistema de diagnóstico de conectividade ativo
+2025-08-08 07:37:25,174 - SimuladorCarga.MenuConsoleComDiagnostico - INFO - Aplicação com diagnóstico iniciada
+2025-08-08 07:37:35,776 - SimuladorCarga.MenuConsoleComDiagnostico - INFO - Opção selecionada: 1
+2025-08-08 07:37:35,777 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Iniciando simulação com diagnóstico - Modo: NORMAL
+2025-08-08 07:37:35,777 - SimuladorCarga.LeitorArquivoIni - INFO - Iniciando leitura do arquivo: ListaBanco.ini
+2025-08-08 07:37:35,783 - SimuladorCarga.LeitorArquivoIni - INFO - Total de configurações carregadas: 240
+2025-08-08 07:37:35,784 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Executando diagnóstico inicial de conectividade...
+2025-08-08 07:37:35,784 - SimuladorCarga.DiagnosticoConexao - INFO - Iniciando diagnóstico de conectividade
+2025-08-08 07:37:35,784 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.4:3050/CCL_001
+2025-08-08 07:37:35,785 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.4:3050/CCL_001: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,786 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.76.55:3050/CCL_004
+2025-08-08 07:37:35,786 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.76.55:3050/CCL_004: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,786 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.187.164:3050/CCL_008
+2025-08-08 07:37:35,787 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.187.164:3050/CCL_008: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,787 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.197.244:3050/CCL_064
+2025-08-08 07:37:35,788 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.197.244:3050/CCL_064: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,788 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 144.22.190.244:3050/CCL_065
+2025-08-08 07:37:35,789 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 144.22.190.244:3050/CCL_065: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,789 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 129.148.33.0:3050/CCL_088
+2025-08-08 07:37:35,790 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 129.148.33.0:3050/CCL_088: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,790 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.6:3050/CCL_121
+2025-08-08 07:37:35,790 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.6:3050/CCL_121: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,791 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.69.46:3050/CCL_184
+2025-08-08 07:37:35,791 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.69.46:3050/CCL_184: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,791 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.156.220:3050/CCL_238
+2025-08-08 07:37:35,792 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.156.220:3050/CCL_238: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,792 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.237.100:3050/CCL_332
+2025-08-08 07:37:35,792 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.237.100:3050/CCL_332: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,793 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - ================================================================================
+2025-08-08 07:37:35,793 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - RESULTADO DO DIAGNÓSTICO:
+2025-08-08 07:37:35,793 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.185.4:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,793 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   136.248.76.55:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,793 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.187.164:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,793 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.197.244:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,794 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   144.22.190.244:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,794 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   129.148.33.0:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,794 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.185.6:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,794 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   136.248.69.46:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,794 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.156.220:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,795 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.237.100:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,795 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - ================================================================================
+2025-08-08 07:37:35,795 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.185.4:3050: 16 lojas na fila
+2025-08-08 07:37:35,796 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 136.248.76.55:3050: 4 lojas na fila
+2025-08-08 07:37:35,796 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.187.164:3050: 20 lojas na fila
+2025-08-08 07:37:35,796 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.197.244:3050: 1 lojas na fila
+2025-08-08 07:37:35,797 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 144.22.190.244:3050: 15 lojas na fila
+2025-08-08 07:37:35,797 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 129.148.33.0:3050: 15 lojas na fila
+2025-08-08 07:37:35,797 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.185.6:3050: 32 lojas na fila
+2025-08-08 07:37:35,798 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 136.248.69.46:3050: 26 lojas na fila
+2025-08-08 07:37:35,798 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.156.220:3050: 29 lojas na fila
+2025-08-08 07:37:35,798 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.237.100:3050: 82 lojas na fila
+2025-08-08 07:37:35,798 - SimuladorCarga.GerenciadorFilaLojas - INFO - Total de IPs únicos: 10
+2025-08-08 07:37:35,799 - SimuladorCarga.GerenciadorFilaLojas - INFO - Limite de 8 consultas simultâneas por IP
+2025-08-08 07:37:35,799 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 129.148.33.0:3050/CCL_088
+2025-08-08 07:37:35,800 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 129.148.33.0:3050/CCL_088: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,801 - SimuladorCarga.ExecutorComDiagnostico.129.148.33.0:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 129.148.33.0:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,809 - SimuladorCarga.ExecutorComDiagnostico.129.148.33.0:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 129.148.33.0:3050
+2025-08-08 07:37:35,810 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.4:3050/CCL_001
+2025-08-08 07:37:35,811 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.4:3050/CCL_001: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,811 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.4:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.185.4:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,935 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.4:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.185.4:3050
+2025-08-08 07:37:35,938 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.76.55:3050/CCL_004
+2025-08-08 07:37:35,938 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.76.55:3050/CCL_004: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,939 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 136.248.76.55:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,951 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 136.248.76.55:3050
+2025-08-08 07:37:35,952 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.197.244:3050/CCL_064
+2025-08-08 07:37:35,955 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.197.244:3050/CCL_064: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,956 - SimuladorCarga.ExecutorComDiagnostico.137.131.197.244:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.197.244:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,957 - SimuladorCarga.GerenciadorFilaLojas - INFO - Fila reiniciada para IP 137.131.197.244:3050 com 1 lojas
+2025-08-08 07:37:35,959 - SimuladorCarga.ExecutorComDiagnostico.137.131.197.244:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.197.244:3050
+2025-08-08 07:37:35,959 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 144.22.190.244:3050/CCL_065
+2025-08-08 07:37:35,959 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 144.22.190.244:3050/CCL_065: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,960 - SimuladorCarga.ExecutorComDiagnostico.144.22.190.244:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 144.22.190.244:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,967 - SimuladorCarga.ExecutorComDiagnostico.144.22.190.244:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 144.22.190.244:3050
+2025-08-08 07:37:35,967 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.69.46:3050/CCL_184
+2025-08-08 07:37:35,968 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.69.46:3050/CCL_184: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,968 - SimuladorCarga.ExecutorComDiagnostico.136.248.69.46:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 136.248.69.46:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,972 - SimuladorCarga.ExecutorComDiagnostico.136.248.69.46:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 136.248.69.46:3050
+2025-08-08 07:37:35,972 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.6:3050/CCL_121
+2025-08-08 07:37:35,972 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.6:3050/CCL_121: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,973 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.6:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.185.6:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,976 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.6:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.185.6:3050
+2025-08-08 07:37:35,977 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.156.220:3050/CCL_238
+2025-08-08 07:37:35,977 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.156.220:3050/CCL_238: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,977 - SimuladorCarga.ExecutorComDiagnostico.137.131.156.220:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.156.220:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,979 - SimuladorCarga.ExecutorComDiagnostico.137.131.156.220:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.156.220:3050
+2025-08-08 07:37:35,979 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.187.164:3050/CCL_008
+2025-08-08 07:37:35,980 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.187.164:3050/CCL_008: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,980 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.187.164:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,985 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.187.164:3050
+2025-08-08 07:37:35,985 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.237.100:3050/CCL_332
+2025-08-08 07:37:35,986 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.237.100:3050/CCL_332: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,986 - SimuladorCarga.ExecutorComDiagnostico.137.131.237.100:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.237.100:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:37:35,990 - SimuladorCarga.ExecutorComDiagnostico.137.131.237.100:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.237.100:3050
+2025-08-08 07:37:35,991 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Simulação com diagnóstico iniciada
+2025-08-08 07:37:36,552 - SimuladorCarga.ExecutorComDiagnostico.CCL_002 - INFO - ✅ Teste de conexão OK: CCL_002
+2025-08-08 07:37:36,552 - SimuladorCarga.ExecutorComDiagnostico.CCL_002 - INFO - Iniciando 1 threads por consulta para CCL_002
+2025-08-08 07:37:36,806 - SimuladorCarga.ExecutorComDiagnostico.CCL_186 - INFO - ✅ Teste de conexão OK: CCL_186
+2025-08-08 07:37:36,806 - SimuladorCarga.ExecutorComDiagnostico.CCL_186 - INFO - Iniciando 1 threads por consulta para CCL_186
+2025-08-08 07:37:36,850 - SimuladorCarga.ExecutorComDiagnostico.CCL_124 - INFO - ✅ Teste de conexão OK: CCL_124
+2025-08-08 07:37:36,851 - SimuladorCarga.ExecutorComDiagnostico.CCL_064 - INFO - ✅ Teste de conexão OK: CCL_064
+2025-08-08 07:37:36,851 - SimuladorCarga.ExecutorComDiagnostico.CCL_124 - INFO - Iniciando 1 threads por consulta para CCL_124
+2025-08-08 07:37:36,851 - SimuladorCarga.ExecutorComDiagnostico.CCL_064 - INFO - Iniciando 1 threads por consulta para CCL_064
+2025-08-08 07:37:36,943 - SimuladorCarga.ExecutorComDiagnostico.CCL_069 - INFO - ✅ Teste de conexão OK: CCL_069
+2025-08-08 07:37:36,943 - SimuladorCarga.ExecutorComDiagnostico.CCL_334 - INFO - ✅ Teste de conexão OK: CCL_334
+2025-08-08 07:37:36,943 - SimuladorCarga.ExecutorComDiagnostico.CCL_089 - INFO - ✅ Teste de conexão OK: CCL_089
+2025-08-08 07:37:36,943 - SimuladorCarga.ExecutorComDiagnostico.CCL_239 - INFO - ✅ Teste de conexão OK: CCL_239
+2025-08-08 07:37:36,944 - SimuladorCarga.ExecutorComDiagnostico.CCL_069 - INFO - Iniciando 1 threads por consulta para CCL_069
+2025-08-08 07:37:36,944 - SimuladorCarga.ExecutorComDiagnostico.CCL_334 - INFO - Iniciando 1 threads por consulta para CCL_334
+2025-08-08 07:37:36,945 - SimuladorCarga.ExecutorComDiagnostico.CCL_089 - INFO - Iniciando 1 threads por consulta para CCL_089
+2025-08-08 07:37:36,945 - SimuladorCarga.ExecutorComDiagnostico.CCL_239 - INFO - Iniciando 1 threads por consulta para CCL_239
+2025-08-08 07:37:40,807 - SimuladorCarga.ExecutorComDiagnostico.CCL_003 - INFO - ✅ Teste de conexão OK: CCL_003
+2025-08-08 07:37:40,809 - SimuladorCarga.ExecutorComDiagnostico.CCL_003 - INFO - Iniciando 1 threads por consulta para CCL_003
+2025-08-08 07:37:40,822 - SimuladorCarga.ExecutorComDiagnostico.CCL_189 - INFO - ✅ Teste de conexão OK: CCL_189
+2025-08-08 07:37:40,827 - SimuladorCarga.ExecutorComDiagnostico.CCL_189 - INFO - Iniciando 1 threads por consulta para CCL_189
+2025-08-08 07:37:41,069 - SimuladorCarga.ExecutorComDiagnostico.CCL_070 - INFO - ✅ Teste de conexão OK: CCL_070
+2025-08-08 07:37:41,075 - SimuladorCarga.ExecutorComDiagnostico.CCL_070 - INFO - Iniciando 1 threads por consulta para CCL_070
+2025-08-08 07:37:41,556 - SimuladorCarga.ExecutorComDiagnostico.CCL_125 - INFO - ✅ Teste de conexão OK: CCL_125
+2025-08-08 07:37:41,557 - SimuladorCarga.ExecutorComDiagnostico.CCL_125 - INFO - Iniciando 1 threads por consulta para CCL_125
+2025-08-08 07:37:41,628 - SimuladorCarga.ExecutorComDiagnostico.CCL_240 - INFO - ✅ Teste de conexão OK: CCL_240
+2025-08-08 07:37:41,629 - SimuladorCarga.ExecutorComDiagnostico.CCL_240 - INFO - Iniciando 1 threads por consulta para CCL_240
+2025-08-08 07:37:41,842 - SimuladorCarga.ExecutorComDiagnostico.CCL_091 - INFO - ✅ Teste de conexão OK: CCL_091
+2025-08-08 07:37:41,844 - SimuladorCarga.ExecutorComDiagnostico.CCL_091 - INFO - Iniciando 1 threads por consulta para CCL_091
+2025-08-08 07:37:42,072 - SimuladorCarga.ExecutorComDiagnostico.CCL_341 - INFO - ✅ Teste de conexão OK: CCL_341
+2025-08-08 07:37:42,076 - SimuladorCarga.ExecutorComDiagnostico.CCL_341 - INFO - Iniciando 1 threads por consulta para CCL_341
+2025-08-08 07:37:44,721 - SimuladorCarga.ExecutorComDiagnostico.CCL_007 - INFO - ✅ Teste de conexão OK: CCL_007
+2025-08-08 07:37:44,722 - SimuladorCarga.ExecutorComDiagnostico.CCL_007 - INFO - Iniciando 1 threads por consulta para CCL_007
+2025-08-08 07:37:44,724 - SimuladorCarga.ExecutorComDiagnostico.CCL_192 - INFO - ✅ Teste de conexão OK: CCL_192
+2025-08-08 07:37:44,735 - SimuladorCarga.ExecutorComDiagnostico.CCL_192 - INFO - Iniciando 1 threads por consulta para CCL_192
+2025-08-08 07:37:45,127 - SimuladorCarga.ExecutorComDiagnostico.CCL_071 - INFO - ✅ Teste de conexão OK: CCL_071
+2025-08-08 07:37:45,127 - SimuladorCarga.ExecutorComDiagnostico.CCL_071 - INFO - Iniciando 1 threads por consulta para CCL_071
+2025-08-08 07:37:45,702 - SimuladorCarga.ExecutorComDiagnostico.CCL_242 - INFO - ✅ Teste de conexão OK: CCL_242
+2025-08-08 07:37:45,717 - SimuladorCarga.ExecutorComDiagnostico.CCL_242 - INFO - Iniciando 1 threads por consulta para CCL_242
+2025-08-08 07:37:45,728 - SimuladorCarga.ExecutorComDiagnostico.CCL_343 - INFO - ✅ Teste de conexão OK: CCL_343
+2025-08-08 07:37:45,734 - SimuladorCarga.ExecutorComDiagnostico.CCL_343 - INFO - Iniciando 1 threads por consulta para CCL_343
+2025-08-08 07:37:45,745 - SimuladorCarga.ExecutorComDiagnostico.CCL_126 - INFO - ✅ Teste de conexão OK: CCL_126
+2025-08-08 07:37:45,759 - SimuladorCarga.ExecutorComDiagnostico.CCL_126 - INFO - Iniciando 1 threads por consulta para CCL_126
+2025-08-08 07:37:45,809 - SimuladorCarga.ExecutorComDiagnostico.CCL_092 - INFO - ✅ Teste de conexão OK: CCL_092
+2025-08-08 07:37:45,817 - SimuladorCarga.ExecutorComDiagnostico.CCL_092 - INFO - Iniciando 1 threads por consulta para CCL_092
+2025-08-08 07:37:46,663 - SimuladorCarga.ExecutorComDiagnostico.CCL_010 - INFO - ✅ Teste de conexão OK: CCL_010
+2025-08-08 07:37:46,686 - SimuladorCarga.ExecutorComDiagnostico.CCL_010 - INFO - Iniciando 1 threads por consulta para CCL_010
+2025-08-08 07:37:46,733 - SimuladorCarga.ExecutorComDiagnostico.CCL_195 - INFO - ✅ Teste de conexão OK: CCL_195
+2025-08-08 07:37:46,763 - SimuladorCarga.ExecutorComDiagnostico.CCL_195 - INFO - Iniciando 1 threads por consulta para CCL_195
+2025-08-08 07:37:47,662 - SimuladorCarga.ExecutorComDiagnostico.CCL_072 - INFO - ✅ Teste de conexão OK: CCL_072
+2025-08-08 07:37:47,662 - SimuladorCarga.ExecutorComDiagnostico.CCL_072 - INFO - Iniciando 1 threads por consulta para CCL_072
+2025-08-08 07:37:47,858 - SimuladorCarga.ExecutorComDiagnostico.CCL_347 - INFO - ✅ Teste de conexão OK: CCL_347
+2025-08-08 07:37:47,881 - SimuladorCarga.ExecutorComDiagnostico.CCL_347 - INFO - Iniciando 1 threads por consulta para CCL_347
+2025-08-08 07:37:47,899 - SimuladorCarga.ExecutorComDiagnostico.CCL_127 - INFO - ✅ Teste de conexão OK: CCL_127
+2025-08-08 07:37:47,915 - SimuladorCarga.ExecutorComDiagnostico.CCL_247 - INFO - ✅ Teste de conexão OK: CCL_247
+2025-08-08 07:37:47,964 - SimuladorCarga.ExecutorComDiagnostico.CCL_127 - INFO - Iniciando 1 threads por consulta para CCL_127
+2025-08-08 07:37:47,996 - SimuladorCarga.ExecutorComDiagnostico.CCL_247 - INFO - Iniciando 1 threads por consulta para CCL_247
+2025-08-08 07:37:48,249 - SimuladorCarga.ExecutorComDiagnostico.CCL_094 - INFO - ✅ Teste de conexão OK: CCL_094
+2025-08-08 07:37:48,334 - SimuladorCarga.ExecutorComDiagnostico.CCL_094 - INFO - Iniciando 1 threads por consulta para CCL_094
+2025-08-08 07:37:49,841 - SimuladorCarga.ExecutorComDiagnostico.CCL_012 - INFO - ✅ Teste de conexão OK: CCL_012
+2025-08-08 07:37:49,841 - SimuladorCarga.ExecutorComDiagnostico.CCL_197 - INFO - ✅ Teste de conexão OK: CCL_197
+2025-08-08 07:37:49,850 - SimuladorCarga.ExecutorComDiagnostico.CCL_012 - INFO - Iniciando 1 threads por consulta para CCL_012
+2025-08-08 07:37:49,855 - SimuladorCarga.ExecutorComDiagnostico.CCL_197 - INFO - Iniciando 1 threads por consulta para CCL_197
+2025-08-08 07:37:51,873 - SimuladorCarga.ExecutorComDiagnostico.CCL_348 - INFO - ✅ Teste de conexão OK: CCL_348
+2025-08-08 07:37:51,889 - SimuladorCarga.ExecutorComDiagnostico.CCL_348 - INFO - Iniciando 1 threads por consulta para CCL_348
+2025-08-08 07:37:52,131 - SimuladorCarga.ExecutorComDiagnostico.CCL_130 - INFO - ✅ Teste de conexão OK: CCL_130
+2025-08-08 07:37:52,154 - SimuladorCarga.ExecutorComDiagnostico.CCL_130 - INFO - Iniciando 1 threads por consulta para CCL_130
+2025-08-08 07:37:52,525 - SimuladorCarga.ExecutorComDiagnostico.CCL_073 - INFO - ✅ Teste de conexão OK: CCL_073
+2025-08-08 07:37:52,571 - SimuladorCarga.ExecutorComDiagnostico.CCL_073 - INFO - Iniciando 1 threads por consulta para CCL_073
+2025-08-08 07:37:52,617 - SimuladorCarga.ExecutorComDiagnostico.CCL_250 - INFO - ✅ Teste de conexão OK: CCL_250
+2025-08-08 07:37:52,638 - SimuladorCarga.ExecutorComDiagnostico.CCL_250 - INFO - Iniciando 1 threads por consulta para CCL_250
+2025-08-08 07:37:52,666 - SimuladorCarga.ExecutorComDiagnostico.CCL_096 - INFO - ✅ Teste de conexão OK: CCL_096
+2025-08-08 07:37:52,697 - SimuladorCarga.ExecutorComDiagnostico.CCL_096 - INFO - Iniciando 1 threads por consulta para CCL_096
+2025-08-08 07:37:52,947 - SimuladorCarga.ExecutorComDiagnostico.CCL_015 - INFO - ✅ Teste de conexão OK: CCL_015
+2025-08-08 07:37:52,994 - SimuladorCarga.ExecutorComDiagnostico.CCL_198 - INFO - ✅ Teste de conexão OK: CCL_198
+2025-08-08 07:37:53,051 - SimuladorCarga.ExecutorComDiagnostico.CCL_015 - INFO - Iniciando 1 threads por consulta para CCL_015
+2025-08-08 07:37:53,119 - SimuladorCarga.ExecutorComDiagnostico.CCL_198 - INFO - Iniciando 1 threads por consulta para CCL_198
+2025-08-08 07:37:54,813 - SimuladorCarga.ExecutorComDiagnostico.CCL_349 - INFO - ✅ Teste de conexão OK: CCL_349
+2025-08-08 07:37:54,832 - SimuladorCarga.ExecutorComDiagnostico.CCL_349 - INFO - Iniciando 1 threads por consulta para CCL_349
+2025-08-08 07:37:57,464 - SimuladorCarga.ExecutorComDiagnostico.CCL_132 - INFO - ✅ Teste de conexão OK: CCL_132
+2025-08-08 07:37:57,478 - SimuladorCarga.ExecutorComDiagnostico.CCL_132 - INFO - Iniciando 1 threads por consulta para CCL_132
+2025-08-08 07:38:01,767 - SimuladorCarga.ExecutorComDiagnostico.CCL_251 - INFO - ✅ Teste de conexão OK: CCL_251
+2025-08-08 07:38:01,785 - SimuladorCarga.ExecutorComDiagnostico.CCL_251 - INFO - Iniciando 1 threads por consulta para CCL_251
+2025-08-08 07:38:02,589 - SimuladorCarga.ExecutorComDiagnostico.CCL_097 - INFO - ✅ Teste de conexão OK: CCL_097
+2025-08-08 07:38:02,618 - SimuladorCarga.ExecutorComDiagnostico.CCL_097 - INFO - Iniciando 1 threads por consulta para CCL_097
+2025-08-08 07:38:02,934 - SimuladorCarga.ExecutorComDiagnostico.CCL_016 - INFO - ✅ Teste de conexão OK: CCL_016
+2025-08-08 07:38:02,957 - SimuladorCarga.ExecutorComDiagnostico.CCL_016 - INFO - Iniciando 1 threads por consulta para CCL_016
+2025-08-08 07:38:03,802 - SimuladorCarga.ExecutorComDiagnostico.CCL_199 - INFO - ✅ Teste de conexão OK: CCL_199
+2025-08-08 07:38:03,817 - SimuladorCarga.ExecutorComDiagnostico.CCL_199 - INFO - Iniciando 1 threads por consulta para CCL_199
+2025-08-08 07:38:05,541 - SimuladorCarga.ExecutorComDiagnostico.CCL_075 - INFO - ✅ Teste de conexão OK: CCL_075
+2025-08-08 07:38:05,593 - SimuladorCarga.ExecutorComDiagnostico.CCL_075 - INFO - Iniciando 1 threads por consulta para CCL_075
+2025-08-08 07:38:05,735 - SimuladorCarga.ExecutorComDiagnostico.CCL_351 - INFO - ✅ Teste de conexão OK: CCL_351
+2025-08-08 07:38:05,768 - SimuladorCarga.ExecutorComDiagnostico.CCL_351 - INFO - Iniciando 1 threads por consulta para CCL_351
+2025-08-08 07:38:07,539 - SimuladorCarga.ExecutorComDiagnostico.CCL_136 - INFO - ✅ Teste de conexão OK: CCL_136
+2025-08-08 07:38:07,567 - SimuladorCarga.ExecutorComDiagnostico.CCL_136 - INFO - Iniciando 1 threads por consulta para CCL_136
+2025-08-08 07:38:08,197 - SimuladorCarga.ExecutorComDiagnostico.CCL_253 - INFO - ✅ Teste de conexão OK: CCL_253
+2025-08-08 07:38:08,314 - SimuladorCarga.ExecutorComDiagnostico.CCL_253 - INFO - Iniciando 1 threads por consulta para CCL_253
+2025-08-08 07:38:08,659 - SimuladorCarga.ExecutorComDiagnostico.CCL_098 - INFO - ✅ Teste de conexão OK: CCL_098
+2025-08-08 07:38:08,677 - SimuladorCarga.ExecutorComDiagnostico.CCL_017 - INFO - ✅ Teste de conexão OK: CCL_017
+2025-08-08 07:38:08,693 - SimuladorCarga.ExecutorComDiagnostico.CCL_098 - INFO - Iniciando 1 threads por consulta para CCL_098
+2025-08-08 07:38:08,715 - SimuladorCarga.ExecutorComDiagnostico.CCL_017 - INFO - Iniciando 1 threads por consulta para CCL_017
+2025-08-08 07:38:09,018 - SimuladorCarga.ExecutorComDiagnostico.CCL_200 - INFO - ✅ Teste de conexão OK: CCL_200
+2025-08-08 07:38:09,088 - SimuladorCarga.ExecutorComDiagnostico.CCL_200 - INFO - Iniciando 1 threads por consulta para CCL_200
+2025-08-08 07:38:09,778 - SimuladorCarga.ExecutorComDiagnostico.CCL_077 - INFO - ✅ Teste de conexão OK: CCL_077
+2025-08-08 07:38:09,843 - SimuladorCarga.ExecutorComDiagnostico.CCL_352 - INFO - ✅ Teste de conexão OK: CCL_352
+2025-08-08 07:38:09,937 - SimuladorCarga.ExecutorComDiagnostico.CCL_077 - INFO - Iniciando 1 threads por consulta para CCL_077
+2025-08-08 07:38:09,990 - SimuladorCarga.ExecutorComDiagnostico.CCL_352 - INFO - Iniciando 1 threads por consulta para CCL_352
+2025-08-08 07:38:12,933 - SimuladorCarga.ExecutorComDiagnostico.CCL_138 - INFO - ✅ Teste de conexão OK: CCL_138
+2025-08-08 07:38:13,000 - SimuladorCarga.ExecutorComDiagnostico.CCL_138 - INFO - Iniciando 1 threads por consulta para CCL_138
+2025-08-08 07:38:14,007 - SimuladorCarga.ExecutorComDiagnostico.CCL_255 - INFO - ✅ Teste de conexão OK: CCL_255
+2025-08-08 07:38:14,033 - SimuladorCarga.ExecutorComDiagnostico.CCL_255 - INFO - Iniciando 1 threads por consulta para CCL_255
+2025-08-08 07:38:14,452 - SimuladorCarga.ExecutorComDiagnostico.CCL_099 - INFO - ✅ Teste de conexão OK: CCL_099
+2025-08-08 07:38:14,467 - SimuladorCarga.ExecutorComDiagnostico.CCL_099 - INFO - Iniciando 1 threads por consulta para CCL_099
+2025-08-08 07:38:18,974 - SimuladorCarga.ExecutorComDiagnostico.CCL_080 - INFO - ✅ Teste de conexão OK: CCL_080
+2025-08-08 07:38:19,004 - SimuladorCarga.ExecutorComDiagnostico.CCL_080 - INFO - Iniciando 1 threads por consulta para CCL_080
+2025-08-08 07:39:51,461 - SimuladorCarga - INFO - === SIMULADOR DE CARGA FIREBIRD COM DIAGNÓSTICO ===
+2025-08-08 07:39:51,462 - SimuladorCarga - INFO - Usuário: RigobertoWLL
+2025-08-08 07:39:51,463 - SimuladorCarga - INFO - Data/Hora: 2025-08-07 20:08:01 UTC
+2025-08-08 07:39:51,463 - SimuladorCarga - INFO - Sistema de diagnóstico de conectividade ativo
+2025-08-08 07:39:51,463 - SimuladorCarga.MenuConsoleComDiagnostico - INFO - Aplicação com diagnóstico iniciada
+2025-08-08 07:40:00,443 - SimuladorCarga.MenuConsoleComDiagnostico - INFO - Opção selecionada: 1
+2025-08-08 07:40:00,443 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Iniciando simulação com diagnóstico - Modo: NORMAL
+2025-08-08 07:40:00,444 - SimuladorCarga.LeitorArquivoIni - INFO - Iniciando leitura do arquivo: ListaBanco.ini
+2025-08-08 07:40:00,449 - SimuladorCarga.LeitorArquivoIni - INFO - Total de configurações carregadas: 240
+2025-08-08 07:40:00,449 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Executando diagnóstico inicial de conectividade...
+2025-08-08 07:40:00,450 - SimuladorCarga.DiagnosticoConexao - INFO - Iniciando diagnóstico de conectividade
+2025-08-08 07:40:00,450 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.4:3050/CCL_001
+2025-08-08 07:40:00,451 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.4:3050/CCL_001: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,451 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.76.55:3050/CCL_004
+2025-08-08 07:40:00,452 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.76.55:3050/CCL_004: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,452 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.187.164:3050/CCL_008
+2025-08-08 07:40:00,453 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.187.164:3050/CCL_008: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,454 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.197.244:3050/CCL_064
+2025-08-08 07:40:00,454 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.197.244:3050/CCL_064: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,455 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 144.22.190.244:3050/CCL_065
+2025-08-08 07:40:00,455 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 144.22.190.244:3050/CCL_065: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,456 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 129.148.33.0:3050/CCL_088
+2025-08-08 07:40:00,456 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 129.148.33.0:3050/CCL_088: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,457 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.6:3050/CCL_121
+2025-08-08 07:40:00,458 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.6:3050/CCL_121: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,459 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.69.46:3050/CCL_184
+2025-08-08 07:40:00,459 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.69.46:3050/CCL_184: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,460 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.156.220:3050/CCL_238
+2025-08-08 07:40:00,461 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.156.220:3050/CCL_238: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,462 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.237.100:3050/CCL_332
+2025-08-08 07:40:00,462 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.237.100:3050/CCL_332: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,463 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - ================================================================================
+2025-08-08 07:40:00,463 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - RESULTADO DO DIAGNÓSTICO:
+2025-08-08 07:40:00,464 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.185.4:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,464 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   136.248.76.55:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,464 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.187.164:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,465 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.197.244:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,465 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   144.22.190.244:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,466 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   129.148.33.0:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,466 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.185.6:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,466 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   136.248.69.46:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,467 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.156.220:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,467 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.237.100:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,468 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - ================================================================================
+2025-08-08 07:40:00,469 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.185.4:3050: 16 lojas na fila
+2025-08-08 07:40:00,470 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 136.248.76.55:3050: 4 lojas na fila
+2025-08-08 07:40:00,470 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.187.164:3050: 20 lojas na fila
+2025-08-08 07:40:00,470 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.197.244:3050: 1 lojas na fila
+2025-08-08 07:40:00,471 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 144.22.190.244:3050: 15 lojas na fila
+2025-08-08 07:40:00,472 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 129.148.33.0:3050: 15 lojas na fila
+2025-08-08 07:40:00,472 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.185.6:3050: 32 lojas na fila
+2025-08-08 07:40:00,473 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 136.248.69.46:3050: 26 lojas na fila
+2025-08-08 07:40:00,473 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.156.220:3050: 29 lojas na fila
+2025-08-08 07:40:00,473 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.237.100:3050: 82 lojas na fila
+2025-08-08 07:40:00,474 - SimuladorCarga.GerenciadorFilaLojas - INFO - Total de IPs únicos: 10
+2025-08-08 07:40:00,474 - SimuladorCarga.GerenciadorFilaLojas - INFO - Limite de 8 consultas simultâneas por IP
+2025-08-08 07:40:00,475 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.197.244:3050/CCL_064
+2025-08-08 07:40:00,475 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.197.244:3050/CCL_064: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,476 - SimuladorCarga.ExecutorComDiagnostico.137.131.197.244:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.197.244:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,476 - SimuladorCarga.GerenciadorFilaLojas - INFO - Fila reiniciada para IP 137.131.197.244:3050 com 1 lojas
+2025-08-08 07:40:00,489 - SimuladorCarga.ExecutorComDiagnostico.137.131.197.244:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.197.244:3050
+2025-08-08 07:40:00,490 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.76.55:3050/CCL_004
+2025-08-08 07:40:00,491 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.76.55:3050/CCL_004: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,493 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 136.248.76.55:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,600 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 136.248.76.55:3050
+2025-08-08 07:40:00,604 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 129.148.33.0:3050/CCL_088
+2025-08-08 07:40:00,610 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 129.148.33.0:3050/CCL_088: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,611 - SimuladorCarga.ExecutorComDiagnostico.129.148.33.0:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 129.148.33.0:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,613 - SimuladorCarga.ExecutorComDiagnostico.129.148.33.0:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 129.148.33.0:3050
+2025-08-08 07:40:00,615 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 144.22.190.244:3050/CCL_065
+2025-08-08 07:40:00,615 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 144.22.190.244:3050/CCL_065: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,616 - SimuladorCarga.ExecutorComDiagnostico.144.22.190.244:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 144.22.190.244:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,622 - SimuladorCarga.ExecutorComDiagnostico.144.22.190.244:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 144.22.190.244:3050
+2025-08-08 07:40:00,622 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.4:3050/CCL_001
+2025-08-08 07:40:00,623 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.4:3050/CCL_001: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,625 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.4:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.185.4:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,627 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.4:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.185.4:3050
+2025-08-08 07:40:00,627 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.237.100:3050/CCL_332
+2025-08-08 07:40:00,628 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.237.100:3050/CCL_332: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,628 - SimuladorCarga.ExecutorComDiagnostico.137.131.237.100:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.237.100:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,629 - SimuladorCarga.ExecutorComDiagnostico.137.131.237.100:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.237.100:3050
+2025-08-08 07:40:00,630 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.69.46:3050/CCL_184
+2025-08-08 07:40:00,630 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.69.46:3050/CCL_184: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,630 - SimuladorCarga.ExecutorComDiagnostico.136.248.69.46:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 136.248.69.46:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,632 - SimuladorCarga.ExecutorComDiagnostico.136.248.69.46:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 136.248.69.46:3050
+2025-08-08 07:40:00,632 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.156.220:3050/CCL_238
+2025-08-08 07:40:00,633 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.156.220:3050/CCL_238: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,633 - SimuladorCarga.ExecutorComDiagnostico.137.131.156.220:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.156.220:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,636 - SimuladorCarga.ExecutorComDiagnostico.137.131.156.220:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.156.220:3050
+2025-08-08 07:40:00,637 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.6:3050/CCL_121
+2025-08-08 07:40:00,637 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.6:3050/CCL_121: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,637 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.6:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.185.6:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,639 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.6:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.185.6:3050
+2025-08-08 07:40:00,639 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.187.164:3050/CCL_008
+2025-08-08 07:40:00,640 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.187.164:3050/CCL_008: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,640 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.187.164:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:40:00,641 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.187.164:3050
+2025-08-08 07:40:00,642 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Simulação com diagnóstico iniciada
+2025-08-08 07:40:01,122 - SimuladorCarga.ExecutorComDiagnostico.CCL_002 - INFO - ✅ Teste de conexão OK: CCL_002
+2025-08-08 07:40:01,123 - SimuladorCarga.ExecutorComDiagnostico.CCL_002 - INFO - Iniciando 1 threads por consulta para CCL_002
+2025-08-08 07:40:01,200 - SimuladorCarga.ExecutorComDiagnostico.CCL_334 - INFO - ✅ Teste de conexão OK: CCL_334
+2025-08-08 07:40:01,200 - SimuladorCarga.ExecutorComDiagnostico.CCL_334 - INFO - Iniciando 1 threads por consulta para CCL_334
+2025-08-08 07:40:01,221 - SimuladorCarga.ExecutorComDiagnostico.CCL_064 - INFO - ✅ Teste de conexão OK: CCL_064
+2025-08-08 07:40:01,221 - SimuladorCarga.ExecutorComDiagnostico.CCL_064 - INFO - Iniciando 1 threads por consulta para CCL_064
+2025-08-08 07:40:01,236 - SimuladorCarga.ExecutorComDiagnostico.CCL_186 - INFO - ✅ Teste de conexão OK: CCL_186
+2025-08-08 07:40:01,236 - SimuladorCarga.ExecutorComDiagnostico.CCL_186 - INFO - Iniciando 1 threads por consulta para CCL_186
+2025-08-08 07:40:01,238 - SimuladorCarga.ExecutorComDiagnostico.CCL_239 - INFO - ✅ Teste de conexão OK: CCL_239
+2025-08-08 07:40:01,238 - SimuladorCarga.ExecutorComDiagnostico.CCL_239 - INFO - Iniciando 1 threads por consulta para CCL_239
+2025-08-08 07:40:01,271 - SimuladorCarga.ExecutorComDiagnostico.CCL_089 - INFO - ✅ Teste de conexão OK: CCL_089
+2025-08-08 07:40:01,271 - SimuladorCarga.ExecutorComDiagnostico.CCL_089 - INFO - Iniciando 1 threads por consulta para CCL_089
+2025-08-08 07:40:01,293 - SimuladorCarga.ExecutorComDiagnostico.CCL_124 - INFO - ✅ Teste de conexão OK: CCL_124
+2025-08-08 07:40:01,293 - SimuladorCarga.ExecutorComDiagnostico.CCL_124 - INFO - Iniciando 1 threads por consulta para CCL_124
+2025-08-08 07:40:01,340 - SimuladorCarga.ExecutorComDiagnostico.CCL_069 - INFO - ✅ Teste de conexão OK: CCL_069
+2025-08-08 07:40:01,340 - SimuladorCarga.ExecutorComDiagnostico.CCL_069 - INFO - Iniciando 1 threads por consulta para CCL_069
+2025-08-08 07:40:03,052 - SimuladorCarga.ExecutorComDiagnostico.CCL_003 - INFO - ✅ Teste de conexão OK: CCL_003
+2025-08-08 07:40:03,056 - SimuladorCarga.ExecutorComDiagnostico.CCL_003 - INFO - Iniciando 1 threads por consulta para CCL_003
+2025-08-08 07:40:03,713 - SimuladorCarga.ExecutorComDiagnostico.CCL_189 - INFO - ✅ Teste de conexão OK: CCL_189
+2025-08-08 07:40:03,715 - SimuladorCarga.ExecutorComDiagnostico.CCL_341 - INFO - ✅ Teste de conexão OK: CCL_341
+2025-08-08 07:40:03,715 - SimuladorCarga.ExecutorComDiagnostico.CCL_189 - INFO - Iniciando 1 threads por consulta para CCL_189
+2025-08-08 07:40:03,720 - SimuladorCarga.ExecutorComDiagnostico.CCL_341 - INFO - Iniciando 1 threads por consulta para CCL_341
+2025-08-08 07:40:03,899 - SimuladorCarga.ExecutorComDiagnostico.CCL_240 - INFO - ✅ Teste de conexão OK: CCL_240
+2025-08-08 07:40:03,902 - SimuladorCarga.ExecutorComDiagnostico.CCL_240 - INFO - Iniciando 1 threads por consulta para CCL_240
+2025-08-08 07:40:03,975 - SimuladorCarga.ExecutorComDiagnostico.CCL_091 - INFO - ✅ Teste de conexão OK: CCL_091
+2025-08-08 07:40:03,976 - SimuladorCarga.ExecutorComDiagnostico.CCL_091 - INFO - Iniciando 1 threads por consulta para CCL_091
+2025-08-08 07:40:04,099 - SimuladorCarga.ExecutorComDiagnostico.CCL_070 - INFO - ✅ Teste de conexão OK: CCL_070
+2025-08-08 07:40:04,105 - SimuladorCarga.ExecutorComDiagnostico.CCL_070 - INFO - Iniciando 1 threads por consulta para CCL_070
+2025-08-08 07:40:04,149 - SimuladorCarga.ExecutorComDiagnostico.CCL_125 - INFO - ✅ Teste de conexão OK: CCL_125
+2025-08-08 07:40:04,167 - SimuladorCarga.ExecutorComDiagnostico.CCL_125 - INFO - Iniciando 1 threads por consulta para CCL_125
+2025-08-08 07:40:04,668 - SimuladorCarga.ExecutorComDiagnostico.CCL_007 - INFO - ✅ Teste de conexão OK: CCL_007
+2025-08-08 07:40:04,674 - SimuladorCarga.ExecutorComDiagnostico.CCL_007 - INFO - Iniciando 1 threads por consulta para CCL_007
+2025-08-08 07:40:06,274 - SimuladorCarga.ExecutorComDiagnostico.CCL_343 - INFO - ✅ Teste de conexão OK: CCL_343
+2025-08-08 07:40:06,274 - SimuladorCarga.ExecutorComDiagnostico.CCL_192 - INFO - ✅ Teste de conexão OK: CCL_192
+2025-08-08 07:40:06,285 - SimuladorCarga.ExecutorComDiagnostico.CCL_343 - INFO - Iniciando 1 threads por consulta para CCL_343
+2025-08-08 07:40:06,294 - SimuladorCarga.ExecutorComDiagnostico.CCL_192 - INFO - Iniciando 1 threads por consulta para CCL_192
+2025-08-08 07:40:06,402 - SimuladorCarga.ExecutorComDiagnostico.CCL_242 - INFO - ✅ Teste de conexão OK: CCL_242
+2025-08-08 07:40:06,411 - SimuladorCarga.ExecutorComDiagnostico.CCL_242 - INFO - Iniciando 1 threads por consulta para CCL_242
+2025-08-08 07:40:06,751 - SimuladorCarga.ExecutorComDiagnostico.CCL_092 - INFO - ✅ Teste de conexão OK: CCL_092
+2025-08-08 07:40:06,760 - SimuladorCarga.ExecutorComDiagnostico.CCL_092 - INFO - Iniciando 1 threads por consulta para CCL_092
+2025-08-08 07:40:07,132 - SimuladorCarga.ExecutorComDiagnostico.CCL_010 - INFO - ✅ Teste de conexão OK: CCL_010
+2025-08-08 07:40:07,145 - SimuladorCarga.ExecutorComDiagnostico.CCL_010 - INFO - Iniciando 1 threads por consulta para CCL_010
+2025-08-08 07:40:07,308 - SimuladorCarga.ExecutorComDiagnostico.CCL_071 - INFO - ✅ Teste de conexão OK: CCL_071
+2025-08-08 07:40:07,308 - SimuladorCarga.ExecutorComDiagnostico.CCL_071 - INFO - Iniciando 1 threads por consulta para CCL_071
+2025-08-08 07:40:07,314 - SimuladorCarga.ExecutorComDiagnostico.CCL_126 - INFO - ✅ Teste de conexão OK: CCL_126
+2025-08-08 07:40:07,339 - SimuladorCarga.ExecutorComDiagnostico.CCL_126 - INFO - Iniciando 1 threads por consulta para CCL_126
+2025-08-08 07:40:08,371 - SimuladorCarga.ExecutorComDiagnostico.CCL_347 - INFO - ✅ Teste de conexão OK: CCL_347
+2025-08-08 07:40:08,395 - SimuladorCarga.ExecutorComDiagnostico.CCL_347 - INFO - Iniciando 1 threads por consulta para CCL_347
+2025-08-08 07:40:08,493 - SimuladorCarga.ExecutorComDiagnostico.CCL_195 - INFO - ✅ Teste de conexão OK: CCL_195
+2025-08-08 07:40:08,521 - SimuladorCarga.ExecutorComDiagnostico.CCL_195 - INFO - Iniciando 1 threads por consulta para CCL_195
+2025-08-08 07:40:08,701 - SimuladorCarga.ExecutorComDiagnostico.CCL_247 - INFO - ✅ Teste de conexão OK: CCL_247
+2025-08-08 07:40:08,734 - SimuladorCarga.ExecutorComDiagnostico.CCL_247 - INFO - Iniciando 1 threads por consulta para CCL_247
+2025-08-08 07:40:09,223 - SimuladorCarga.ExecutorComDiagnostico.CCL_094 - INFO - ✅ Teste de conexão OK: CCL_094
+2025-08-08 07:40:09,238 - SimuladorCarga.ExecutorComDiagnostico.CCL_094 - INFO - Iniciando 1 threads por consulta para CCL_094
+2025-08-08 07:40:10,123 - SimuladorCarga.ExecutorComDiagnostico.CCL_012 - INFO - ✅ Teste de conexão OK: CCL_012
+2025-08-08 07:40:10,137 - SimuladorCarga.ExecutorComDiagnostico.CCL_012 - INFO - Iniciando 1 threads por consulta para CCL_012
+2025-08-08 07:40:10,681 - SimuladorCarga.ExecutorComDiagnostico.CCL_072 - INFO - ✅ Teste de conexão OK: CCL_072
+2025-08-08 07:40:10,696 - SimuladorCarga.ExecutorComDiagnostico.CCL_072 - INFO - Iniciando 1 threads por consulta para CCL_072
+2025-08-08 07:40:10,913 - SimuladorCarga.ExecutorComDiagnostico.CCL_127 - INFO - ✅ Teste de conexão OK: CCL_127
+2025-08-08 07:40:10,924 - SimuladorCarga.ExecutorComDiagnostico.CCL_127 - INFO - Iniciando 1 threads por consulta para CCL_127
+2025-08-08 07:40:16,699 - SimuladorCarga.ExecutorComDiagnostico.CCL_348 - INFO - ✅ Teste de conexão OK: CCL_348
+2025-08-08 07:40:16,713 - SimuladorCarga.ExecutorComDiagnostico.CCL_348 - INFO - Iniciando 1 threads por consulta para CCL_348
+2025-08-08 07:40:17,307 - SimuladorCarga.ExecutorComDiagnostico.CCL_197 - INFO - ✅ Teste de conexão OK: CCL_197
+2025-08-08 07:40:17,318 - SimuladorCarga.ExecutorComDiagnostico.CCL_197 - INFO - Iniciando 1 threads por consulta para CCL_197
+2025-08-08 07:40:17,523 - SimuladorCarga.ExecutorComDiagnostico.CCL_250 - INFO - ✅ Teste de conexão OK: CCL_250
+2025-08-08 07:40:17,536 - SimuladorCarga.ExecutorComDiagnostico.CCL_250 - INFO - Iniciando 1 threads por consulta para CCL_250
+2025-08-08 07:40:17,912 - SimuladorCarga.ExecutorComDiagnostico.CCL_096 - INFO - ✅ Teste de conexão OK: CCL_096
+2025-08-08 07:40:17,926 - SimuladorCarga.ExecutorComDiagnostico.CCL_096 - INFO - Iniciando 1 threads por consulta para CCL_096
+2025-08-08 07:40:18,663 - SimuladorCarga.ExecutorComDiagnostico.CCL_073 - INFO - ✅ Teste de conexão OK: CCL_073
+2025-08-08 07:40:18,695 - SimuladorCarga.ExecutorComDiagnostico.CCL_073 - INFO - Iniciando 1 threads por consulta para CCL_073
+2025-08-08 07:40:18,754 - SimuladorCarga.ExecutorComDiagnostico.CCL_130 - INFO - ✅ Teste de conexão OK: CCL_130
+2025-08-08 07:40:18,770 - SimuladorCarga.ExecutorComDiagnostico.CCL_130 - INFO - Iniciando 1 threads por consulta para CCL_130
+2025-08-08 07:40:33,806 - SimuladorCarga - INFO - === SIMULADOR DE CARGA FIREBIRD FINALIZADO ===
+2025-08-08 07:41:07,872 - SimuladorCarga - INFO - === SIMULADOR DE CARGA FIREBIRD COM DIAGNÓSTICO ===
+2025-08-08 07:41:07,873 - SimuladorCarga - INFO - Usuário: RigobertoWLL
+2025-08-08 07:41:07,873 - SimuladorCarga - INFO - Data/Hora: 2025-08-07 20:08:01 UTC
+2025-08-08 07:41:07,874 - SimuladorCarga - INFO - Sistema de diagnóstico de conectividade ativo
+2025-08-08 07:41:07,874 - SimuladorCarga.MenuConsoleComDiagnostico - INFO - Aplicação com diagnóstico iniciada
+2025-08-08 07:41:11,463 - SimuladorCarga.MenuConsoleComDiagnostico - INFO - Opção selecionada: 1
+2025-08-08 07:41:11,465 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Iniciando simulação com diagnóstico - Modo: NORMAL
+2025-08-08 07:41:11,465 - SimuladorCarga.LeitorArquivoIni - INFO - Iniciando leitura do arquivo: ListaBanco.ini
+2025-08-08 07:41:11,473 - SimuladorCarga.LeitorArquivoIni - INFO - Total de configurações carregadas: 240
+2025-08-08 07:41:11,474 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Executando diagnóstico inicial de conectividade...
+2025-08-08 07:41:11,475 - SimuladorCarga.DiagnosticoConexao - INFO - Iniciando diagnóstico de conectividade
+2025-08-08 07:41:11,476 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.4:3050/CCL_001
+2025-08-08 07:41:11,477 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.4:3050/CCL_001: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,477 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.76.55:3050/CCL_004
+2025-08-08 07:41:11,478 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.76.55:3050/CCL_004: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,478 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.187.164:3050/CCL_008
+2025-08-08 07:41:11,479 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.187.164:3050/CCL_008: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,480 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.197.244:3050/CCL_064
+2025-08-08 07:41:11,480 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.197.244:3050/CCL_064: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,481 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 144.22.190.244:3050/CCL_065
+2025-08-08 07:41:11,481 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 144.22.190.244:3050/CCL_065: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,481 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 129.148.33.0:3050/CCL_088
+2025-08-08 07:41:11,482 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 129.148.33.0:3050/CCL_088: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,482 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.6:3050/CCL_121
+2025-08-08 07:41:11,483 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.6:3050/CCL_121: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,484 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.69.46:3050/CCL_184
+2025-08-08 07:41:11,485 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.69.46:3050/CCL_184: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,485 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.156.220:3050/CCL_238
+2025-08-08 07:41:11,486 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.156.220:3050/CCL_238: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,486 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.237.100:3050/CCL_332
+2025-08-08 07:41:11,486 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.237.100:3050/CCL_332: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,487 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - ================================================================================
+2025-08-08 07:41:11,487 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - RESULTADO DO DIAGNÓSTICO:
+2025-08-08 07:41:11,488 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.185.4:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,488 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   136.248.76.55:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,488 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.187.164:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,489 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.197.244:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,489 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   144.22.190.244:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,490 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   129.148.33.0:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,490 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.185.6:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,491 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   136.248.69.46:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,491 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.156.220:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,491 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.237.100:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,492 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - ================================================================================
+2025-08-08 07:41:11,492 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.185.4:3050: 16 lojas na fila
+2025-08-08 07:41:11,493 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 136.248.76.55:3050: 4 lojas na fila
+2025-08-08 07:41:11,493 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.187.164:3050: 20 lojas na fila
+2025-08-08 07:41:11,493 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.197.244:3050: 1 lojas na fila
+2025-08-08 07:41:11,494 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 144.22.190.244:3050: 15 lojas na fila
+2025-08-08 07:41:11,494 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 129.148.33.0:3050: 15 lojas na fila
+2025-08-08 07:41:11,494 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.185.6:3050: 32 lojas na fila
+2025-08-08 07:41:11,495 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 136.248.69.46:3050: 26 lojas na fila
+2025-08-08 07:41:11,495 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.156.220:3050: 29 lojas na fila
+2025-08-08 07:41:11,495 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.237.100:3050: 82 lojas na fila
+2025-08-08 07:41:11,496 - SimuladorCarga.GerenciadorFilaLojas - INFO - Total de IPs únicos: 10
+2025-08-08 07:41:11,496 - SimuladorCarga.GerenciadorFilaLojas - INFO - Limite de 8 consultas simultâneas por IP
+2025-08-08 07:41:11,497 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.69.46:3050/CCL_184
+2025-08-08 07:41:11,497 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.69.46:3050/CCL_184: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,498 - SimuladorCarga.ExecutorComDiagnostico.136.248.69.46:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 136.248.69.46:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,507 - SimuladorCarga.ExecutorComDiagnostico.136.248.69.46:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 136.248.69.46:3050
+2025-08-08 07:41:11,508 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.187.164:3050/CCL_008
+2025-08-08 07:41:11,509 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.187.164:3050/CCL_008: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,509 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.187.164:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,615 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.187.164:3050
+2025-08-08 07:41:11,616 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.197.244:3050/CCL_064
+2025-08-08 07:41:11,616 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.197.244:3050/CCL_064: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,617 - SimuladorCarga.ExecutorComDiagnostico.137.131.197.244:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.197.244:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,620 - SimuladorCarga.GerenciadorFilaLojas - INFO - Fila reiniciada para IP 137.131.197.244:3050 com 1 lojas
+2025-08-08 07:41:11,632 - SimuladorCarga.ExecutorComDiagnostico.137.131.197.244:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.197.244:3050
+2025-08-08 07:41:11,633 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.4:3050/CCL_001
+2025-08-08 07:41:11,635 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.4:3050/CCL_001: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,636 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.4:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.185.4:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,642 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.4:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.185.4:3050
+2025-08-08 07:41:11,642 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.76.55:3050/CCL_004
+2025-08-08 07:41:11,642 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.76.55:3050/CCL_004: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,643 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 136.248.76.55:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,646 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 136.248.76.55:3050
+2025-08-08 07:41:11,646 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 129.148.33.0:3050/CCL_088
+2025-08-08 07:41:11,646 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 129.148.33.0:3050/CCL_088: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,647 - SimuladorCarga.ExecutorComDiagnostico.129.148.33.0:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 129.148.33.0:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,648 - SimuladorCarga.ExecutorComDiagnostico.129.148.33.0:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 129.148.33.0:3050
+2025-08-08 07:41:11,649 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.237.100:3050/CCL_332
+2025-08-08 07:41:11,649 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.237.100:3050/CCL_332: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,649 - SimuladorCarga.ExecutorComDiagnostico.137.131.237.100:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.237.100:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,651 - SimuladorCarga.ExecutorComDiagnostico.137.131.237.100:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.237.100:3050
+2025-08-08 07:41:11,652 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.156.220:3050/CCL_238
+2025-08-08 07:41:11,652 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.156.220:3050/CCL_238: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,652 - SimuladorCarga.ExecutorComDiagnostico.137.131.156.220:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.156.220:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,653 - SimuladorCarga.ExecutorComDiagnostico.137.131.156.220:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.156.220:3050
+2025-08-08 07:41:11,654 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 144.22.190.244:3050/CCL_065
+2025-08-08 07:41:11,654 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 144.22.190.244:3050/CCL_065: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,655 - SimuladorCarga.ExecutorComDiagnostico.144.22.190.244:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 144.22.190.244:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,656 - SimuladorCarga.ExecutorComDiagnostico.144.22.190.244:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 144.22.190.244:3050
+2025-08-08 07:41:11,656 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.6:3050/CCL_121
+2025-08-08 07:41:11,657 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.6:3050/CCL_121: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,657 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.6:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.185.6:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:41:11,659 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.6:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.185.6:3050
+2025-08-08 07:41:11,660 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Simulação com diagnóstico iniciada
+2025-08-08 07:41:12,159 - SimuladorCarga.ExecutorComDiagnostico.CCL_064 - INFO - ✅ Teste de conexão OK: CCL_064
+2025-08-08 07:41:12,159 - SimuladorCarga.ExecutorComDiagnostico.CCL_064 - INFO - Iniciando 1 threads por consulta para CCL_064
+2025-08-08 07:41:12,172 - SimuladorCarga.ExecutorComDiagnostico.CCL_334 - INFO - ✅ Teste de conexão OK: CCL_334
+2025-08-08 07:41:12,172 - SimuladorCarga.ExecutorComDiagnostico.CCL_124 - INFO - ✅ Teste de conexão OK: CCL_124
+2025-08-08 07:41:12,172 - SimuladorCarga.ExecutorComDiagnostico.CCL_089 - INFO - ✅ Teste de conexão OK: CCL_089
+2025-08-08 07:41:12,172 - SimuladorCarga.ExecutorComDiagnostico.CCL_186 - INFO - ✅ Teste de conexão OK: CCL_186
+2025-08-08 07:41:12,172 - SimuladorCarga.ExecutorComDiagnostico.CCL_239 - INFO - ✅ Teste de conexão OK: CCL_239
+2025-08-08 07:41:12,173 - SimuladorCarga.ExecutorComDiagnostico.CCL_334 - INFO - Iniciando 1 threads por consulta para CCL_334
+2025-08-08 07:41:12,173 - SimuladorCarga.ExecutorComDiagnostico.CCL_124 - INFO - Iniciando 1 threads por consulta para CCL_124
+2025-08-08 07:41:12,173 - SimuladorCarga.ExecutorComDiagnostico.CCL_089 - INFO - Iniciando 1 threads por consulta para CCL_089
+2025-08-08 07:41:12,173 - SimuladorCarga.ExecutorComDiagnostico.CCL_186 - INFO - Iniciando 1 threads por consulta para CCL_186
+2025-08-08 07:41:12,174 - SimuladorCarga.ExecutorComDiagnostico.CCL_239 - INFO - Iniciando 1 threads por consulta para CCL_239
+2025-08-08 07:41:12,184 - SimuladorCarga.ExecutorComDiagnostico.CCL_002 - INFO - ✅ Teste de conexão OK: CCL_002
+2025-08-08 07:41:12,185 - SimuladorCarga.ExecutorComDiagnostico.CCL_002 - INFO - Iniciando 1 threads por consulta para CCL_002
+2025-08-08 07:41:12,190 - SimuladorCarga.ExecutorComDiagnostico.CCL_069 - INFO - ✅ Teste de conexão OK: CCL_069
+2025-08-08 07:41:12,192 - SimuladorCarga.ExecutorComDiagnostico.CCL_069 - INFO - Iniciando 1 threads por consulta para CCL_069
+2025-08-08 07:41:14,179 - SimuladorCarga.ExecutorComDiagnostico.CCL_240 - INFO - ✅ Teste de conexão OK: CCL_240
+2025-08-08 07:41:14,183 - SimuladorCarga.ExecutorComDiagnostico.CCL_240 - INFO - Iniciando 1 threads por consulta para CCL_240
+2025-08-08 07:41:14,530 - SimuladorCarga.ExecutorComDiagnostico.CCL_070 - INFO - ✅ Teste de conexão OK: CCL_070
+2025-08-08 07:41:14,532 - SimuladorCarga.ExecutorComDiagnostico.CCL_070 - INFO - Iniciando 1 threads por consulta para CCL_070
+2025-08-08 07:41:14,693 - SimuladorCarga.ExecutorComDiagnostico.CCL_189 - INFO - ✅ Teste de conexão OK: CCL_189
+2025-08-08 07:41:14,699 - SimuladorCarga.ExecutorComDiagnostico.CCL_125 - INFO - ✅ Teste de conexão OK: CCL_125
+2025-08-08 07:41:14,699 - SimuladorCarga.ExecutorComDiagnostico.CCL_003 - INFO - ✅ Teste de conexão OK: CCL_003
+2025-08-08 07:41:14,702 - SimuladorCarga.ExecutorComDiagnostico.CCL_341 - INFO - ✅ Teste de conexão OK: CCL_341
+2025-08-08 07:41:14,712 - SimuladorCarga.ExecutorComDiagnostico.CCL_189 - INFO - Iniciando 1 threads por consulta para CCL_189
+2025-08-08 07:41:14,722 - SimuladorCarga.ExecutorComDiagnostico.CCL_125 - INFO - Iniciando 1 threads por consulta para CCL_125
+2025-08-08 07:41:14,725 - SimuladorCarga.ExecutorComDiagnostico.CCL_091 - INFO - ✅ Teste de conexão OK: CCL_091
+2025-08-08 07:41:14,728 - SimuladorCarga.ExecutorComDiagnostico.CCL_003 - INFO - Iniciando 1 threads por consulta para CCL_003
+2025-08-08 07:41:14,735 - SimuladorCarga.ExecutorComDiagnostico.CCL_341 - INFO - Iniciando 1 threads por consulta para CCL_341
+2025-08-08 07:41:14,765 - SimuladorCarga.ExecutorComDiagnostico.CCL_091 - INFO - Iniciando 1 threads por consulta para CCL_091
+2025-08-08 07:41:15,697 - SimuladorCarga.ExecutorComDiagnostico.CCL_242 - INFO - ✅ Teste de conexão OK: CCL_242
+2025-08-08 07:41:15,708 - SimuladorCarga.ExecutorComDiagnostico.CCL_242 - INFO - Iniciando 1 threads por consulta para CCL_242
+2025-08-08 07:41:17,025 - SimuladorCarga.ExecutorComDiagnostico.CCL_071 - INFO - ✅ Teste de conexão OK: CCL_071
+2025-08-08 07:41:17,036 - SimuladorCarga.ExecutorComDiagnostico.CCL_071 - INFO - Iniciando 1 threads por consulta para CCL_071
+2025-08-08 07:41:17,277 - SimuladorCarga.ExecutorComDiagnostico.CCL_126 - INFO - ✅ Teste de conexão OK: CCL_126
+2025-08-08 07:41:17,284 - SimuladorCarga.ExecutorComDiagnostico.CCL_126 - INFO - Iniciando 1 threads por consulta para CCL_126
+2025-08-08 07:41:17,620 - SimuladorCarga.ExecutorComDiagnostico.CCL_343 - INFO - ✅ Teste de conexão OK: CCL_343
+2025-08-08 07:41:17,620 - SimuladorCarga.ExecutorComDiagnostico.CCL_192 - INFO - ✅ Teste de conexão OK: CCL_192
+2025-08-08 07:41:17,626 - SimuladorCarga.ExecutorComDiagnostico.CCL_092 - INFO - ✅ Teste de conexão OK: CCL_092
+2025-08-08 07:41:17,626 - SimuladorCarga.ExecutorComDiagnostico.CCL_343 - INFO - Iniciando 1 threads por consulta para CCL_343
+2025-08-08 07:41:17,630 - SimuladorCarga.ExecutorComDiagnostico.CCL_007 - INFO - ✅ Teste de conexão OK: CCL_007
+2025-08-08 07:41:17,636 - SimuladorCarga.ExecutorComDiagnostico.CCL_192 - INFO - Iniciando 1 threads por consulta para CCL_192
+2025-08-08 07:41:17,640 - SimuladorCarga.ExecutorComDiagnostico.CCL_092 - INFO - Iniciando 1 threads por consulta para CCL_092
+2025-08-08 07:41:17,661 - SimuladorCarga.ExecutorComDiagnostico.CCL_007 - INFO - Iniciando 1 threads por consulta para CCL_007
+2025-08-08 07:41:56,222 - SimuladorCarga - INFO - === SIMULADOR DE CARGA FIREBIRD FINALIZADO ===
+2025-08-08 07:44:52,665 - SimuladorCarga - INFO - === SIMULADOR DE CARGA FIREBIRD COM DIAGNÓSTICO ===
+2025-08-08 07:44:52,666 - SimuladorCarga - INFO - Usuário: RigobertoWLL
+2025-08-08 07:44:52,666 - SimuladorCarga - INFO - Data/Hora: 2025-08-07 20:08:01 UTC
+2025-08-08 07:44:52,667 - SimuladorCarga - INFO - Sistema de diagnóstico de conectividade ativo
+2025-08-08 07:44:52,667 - SimuladorCarga.MenuConsoleComDiagnostico - INFO - Aplicação com diagnóstico iniciada
+2025-08-08 07:44:55,962 - SimuladorCarga.MenuConsoleComDiagnostico - INFO - Opção selecionada: 1
+2025-08-08 07:44:55,963 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Iniciando simulação com diagnóstico - Modo: NORMAL
+2025-08-08 07:44:55,964 - SimuladorCarga.LeitorArquivoIni - INFO - Iniciando leitura do arquivo: ListaBanco.ini
+2025-08-08 07:44:55,969 - SimuladorCarga.LeitorArquivoIni - INFO - Total de configurações carregadas: 240
+2025-08-08 07:44:55,969 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Executando diagnóstico inicial de conectividade...
+2025-08-08 07:44:55,970 - SimuladorCarga.DiagnosticoConexao - INFO - Iniciando diagnóstico de conectividade
+2025-08-08 07:44:55,970 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.4:3050/CCL_001
+2025-08-08 07:44:55,971 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.4:3050/CCL_001: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,972 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.76.55:3050/CCL_004
+2025-08-08 07:44:55,972 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.76.55:3050/CCL_004: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,973 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.187.164:3050/CCL_008
+2025-08-08 07:44:55,973 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.187.164:3050/CCL_008: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,974 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.197.244:3050/CCL_064
+2025-08-08 07:44:55,974 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.197.244:3050/CCL_064: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,974 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 144.22.190.244:3050/CCL_065
+2025-08-08 07:44:55,975 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 144.22.190.244:3050/CCL_065: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,975 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 129.148.33.0:3050/CCL_088
+2025-08-08 07:44:55,975 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 129.148.33.0:3050/CCL_088: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,976 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.6:3050/CCL_121
+2025-08-08 07:44:55,976 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.6:3050/CCL_121: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,976 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.69.46:3050/CCL_184
+2025-08-08 07:44:55,977 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.69.46:3050/CCL_184: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,977 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.156.220:3050/CCL_238
+2025-08-08 07:44:55,977 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.156.220:3050/CCL_238: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,978 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.237.100:3050/CCL_332
+2025-08-08 07:44:55,978 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.237.100:3050/CCL_332: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,979 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - ================================================================================
+2025-08-08 07:44:55,979 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - RESULTADO DO DIAGNÓSTICO:
+2025-08-08 07:44:55,979 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.185.4:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,980 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   136.248.76.55:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,980 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.187.164:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,981 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.197.244:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,981 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   144.22.190.244:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,982 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   129.148.33.0:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,982 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   159.112.185.6:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,983 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   136.248.69.46:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,983 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.156.220:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,983 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO -   137.131.237.100:3050: ❌ FALHA - connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,984 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - ================================================================================
+2025-08-08 07:44:55,984 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.185.4:3050: 16 lojas na fila
+2025-08-08 07:44:55,985 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 136.248.76.55:3050: 4 lojas na fila
+2025-08-08 07:44:55,985 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.187.164:3050: 20 lojas na fila
+2025-08-08 07:44:55,985 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.197.244:3050: 1 lojas na fila
+2025-08-08 07:44:55,986 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 144.22.190.244:3050: 15 lojas na fila
+2025-08-08 07:44:55,986 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 129.148.33.0:3050: 15 lojas na fila
+2025-08-08 07:44:55,986 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 159.112.185.6:3050: 32 lojas na fila
+2025-08-08 07:44:55,986 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 136.248.69.46:3050: 26 lojas na fila
+2025-08-08 07:44:55,987 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.156.220:3050: 29 lojas na fila
+2025-08-08 07:44:55,987 - SimuladorCarga.GerenciadorFilaLojas - INFO - IP 137.131.237.100:3050: 82 lojas na fila
+2025-08-08 07:44:55,987 - SimuladorCarga.GerenciadorFilaLojas - INFO - Total de IPs únicos: 10
+2025-08-08 07:44:55,987 - SimuladorCarga.GerenciadorFilaLojas - INFO - Limite de 8 consultas simultâneas por IP
+2025-08-08 07:44:55,988 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.6:3050/CCL_121
+2025-08-08 07:44:55,988 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.6:3050/CCL_121: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,989 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.6:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.185.6:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,996 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.6:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.185.6:3050
+2025-08-08 07:44:55,997 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 129.148.33.0:3050/CCL_088
+2025-08-08 07:44:55,997 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 129.148.33.0:3050/CCL_088: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:55,998 - SimuladorCarga.ExecutorComDiagnostico.129.148.33.0:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 129.148.33.0:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,082 - SimuladorCarga.ExecutorComDiagnostico.129.148.33.0:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 129.148.33.0:3050
+2025-08-08 07:44:56,084 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.187.164:3050/CCL_008
+2025-08-08 07:44:56,091 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.187.164:3050/CCL_008: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,091 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.187.164:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,094 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.187.164:3050
+2025-08-08 07:44:56,094 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.156.220:3050/CCL_238
+2025-08-08 07:44:56,095 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.156.220:3050/CCL_238: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,096 - SimuladorCarga.ExecutorComDiagnostico.137.131.156.220:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.156.220:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,100 - SimuladorCarga.ExecutorComDiagnostico.137.131.156.220:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.156.220:3050
+2025-08-08 07:44:56,101 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.69.46:3050/CCL_184
+2025-08-08 07:44:56,101 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.69.46:3050/CCL_184: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,101 - SimuladorCarga.ExecutorComDiagnostico.136.248.69.46:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 136.248.69.46:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,103 - SimuladorCarga.ExecutorComDiagnostico.136.248.69.46:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 136.248.69.46:3050
+2025-08-08 07:44:56,103 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.237.100:3050/CCL_332
+2025-08-08 07:44:56,104 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.237.100:3050/CCL_332: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,104 - SimuladorCarga.ExecutorComDiagnostico.137.131.237.100:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.237.100:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,106 - SimuladorCarga.ExecutorComDiagnostico.137.131.237.100:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.237.100:3050
+2025-08-08 07:44:56,106 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 159.112.185.4:3050/CCL_001
+2025-08-08 07:44:56,106 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 159.112.185.4:3050/CCL_001: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,106 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.4:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 159.112.185.4:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,107 - SimuladorCarga.ExecutorComDiagnostico.159.112.185.4:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 159.112.185.4:3050
+2025-08-08 07:44:56,108 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 144.22.190.244:3050/CCL_065
+2025-08-08 07:44:56,108 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 144.22.190.244:3050/CCL_065: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,109 - SimuladorCarga.ExecutorComDiagnostico.144.22.190.244:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 144.22.190.244:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,110 - SimuladorCarga.ExecutorComDiagnostico.144.22.190.244:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 144.22.190.244:3050
+2025-08-08 07:44:56,110 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 137.131.197.244:3050/CCL_064
+2025-08-08 07:44:56,110 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 137.131.197.244:3050/CCL_064: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,111 - SimuladorCarga.ExecutorComDiagnostico.137.131.197.244:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 137.131.197.244:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,111 - SimuladorCarga.GerenciadorFilaLojas - INFO - Fila reiniciada para IP 137.131.197.244:3050 com 1 lojas
+2025-08-08 07:44:56,113 - SimuladorCarga.ExecutorComDiagnostico.137.131.197.244:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 137.131.197.244:3050
+2025-08-08 07:44:56,113 - SimuladorCarga.DiagnosticoConexao - INFO - Testando conexão: 136.248.76.55:3050/CCL_004
+2025-08-08 07:44:56,114 - SimuladorCarga.DiagnosticoConexao - ERROR - ❌ Erro conexão 136.248.76.55:3050/CCL_004: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,114 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - ERROR - ❌ Diagnóstico FALHOU para IP 136.248.76.55:3050: connect() got an unexpected keyword argument 'connection_timeout'
+2025-08-08 07:44:56,115 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - INFO - Gerenciador com diagnóstico iniciado para IP 136.248.76.55:3050
+2025-08-08 07:44:56,116 - SimuladorCarga.GerenciadorCargaComDiagnostico - INFO - Simulação com diagnóstico iniciada
+2025-08-08 07:44:56,574 - SimuladorCarga.ExecutorComDiagnostico.CCL_334 - INFO - ✅ Teste de conexão OK: CCL_334
+2025-08-08 07:44:56,574 - SimuladorCarga.ExecutorComDiagnostico.CCL_334 - INFO - Iniciando 1 threads por consulta para CCL_334
+2025-08-08 07:44:56,592 - SimuladorCarga.ExecutorComDiagnostico.CCL_002 - INFO - ✅ Teste de conexão OK: CCL_002
+2025-08-08 07:44:56,593 - SimuladorCarga.ExecutorComDiagnostico.CCL_002 - INFO - Iniciando 1 threads por consulta para CCL_002
+2025-08-08 07:44:56,616 - SimuladorCarga.ExecutorComDiagnostico.CCL_089 - INFO - ✅ Teste de conexão OK: CCL_089
+2025-08-08 07:44:56,616 - SimuladorCarga.ExecutorComDiagnostico.CCL_089 - INFO - Iniciando 1 threads por consulta para CCL_089
+2025-08-08 07:44:56,639 - SimuladorCarga.ExecutorComDiagnostico.CCL_124 - INFO - ✅ Teste de conexão OK: CCL_124
+2025-08-08 07:44:56,639 - SimuladorCarga.ExecutorComDiagnostico.CCL_124 - INFO - Iniciando 1 threads por consulta para CCL_124
+2025-08-08 07:44:56,656 - SimuladorCarga.ExecutorComDiagnostico.CCL_069 - INFO - ✅ Teste de conexão OK: CCL_069
+2025-08-08 07:44:56,657 - SimuladorCarga.ExecutorComDiagnostico.CCL_069 - INFO - Iniciando 1 threads por consulta para CCL_069
+2025-08-08 07:44:56,669 - SimuladorCarga.ExecutorComDiagnostico.CCL_064 - INFO - ✅ Teste de conexão OK: CCL_064
+2025-08-08 07:44:56,670 - SimuladorCarga.ExecutorComDiagnostico.CCL_064 - INFO - Iniciando 1 threads por consulta para CCL_064
+2025-08-08 07:44:56,673 - SimuladorCarga.ExecutorComDiagnostico.CCL_239 - INFO - ✅ Teste de conexão OK: CCL_239
+2025-08-08 07:44:56,673 - SimuladorCarga.ExecutorComDiagnostico.CCL_186 - INFO - ✅ Teste de conexão OK: CCL_186
+2025-08-08 07:44:56,673 - SimuladorCarga.ExecutorComDiagnostico.CCL_239 - INFO - Iniciando 1 threads por consulta para CCL_239
+2025-08-08 07:44:56,674 - SimuladorCarga.ExecutorComDiagnostico.CCL_186 - INFO - Iniciando 1 threads por consulta para CCL_186
+2025-08-08 07:44:58,371 - SimuladorCarga.ExecutorComDiagnostico.CCL_189 - INFO - ✅ Teste de conexão OK: CCL_189
+2025-08-08 07:44:58,380 - SimuladorCarga.ExecutorComDiagnostico.CCL_189 - INFO - Iniciando 1 threads por consulta para CCL_189
+2025-08-08 07:44:58,391 - SimuladorCarga.ExecutorComDiagnostico.CCL_341 - INFO - ✅ Teste de conexão OK: CCL_341
+2025-08-08 07:44:58,391 - SimuladorCarga.ExecutorComDiagnostico.CCL_003 - INFO - ✅ Teste de conexão OK: CCL_003
+2025-08-08 07:44:58,394 - SimuladorCarga.ExecutorComDiagnostico.CCL_240 - INFO - ✅ Teste de conexão OK: CCL_240
+2025-08-08 07:44:58,408 - SimuladorCarga.ExecutorComDiagnostico.CCL_341 - INFO - Iniciando 1 threads por consulta para CCL_341
+2025-08-08 07:44:58,413 - SimuladorCarga.ExecutorComDiagnostico.CCL_003 - INFO - Iniciando 1 threads por consulta para CCL_003
+2025-08-08 07:44:58,421 - SimuladorCarga.ExecutorComDiagnostico.CCL_240 - INFO - Iniciando 1 threads por consulta para CCL_240
+2025-08-08 07:44:58,470 - SimuladorCarga.ExecutorComDiagnostico.CCL_070 - INFO - ✅ Teste de conexão OK: CCL_070
+2025-08-08 07:44:58,473 - SimuladorCarga.ExecutorComDiagnostico.CCL_091 - INFO - ✅ Teste de conexão OK: CCL_091
+2025-08-08 07:44:58,475 - SimuladorCarga.ExecutorComDiagnostico.CCL_070 - INFO - Iniciando 1 threads por consulta para CCL_070
+2025-08-08 07:44:58,491 - SimuladorCarga.ExecutorComDiagnostico.CCL_125 - INFO - ✅ Teste de conexão OK: CCL_125
+2025-08-08 07:44:58,509 - SimuladorCarga.ExecutorComDiagnostico.CCL_091 - INFO - Iniciando 1 threads por consulta para CCL_091
+2025-08-08 07:44:58,528 - SimuladorCarga.ExecutorComDiagnostico.CCL_125 - INFO - Iniciando 1 threads por consulta para CCL_125
+2025-08-08 07:45:02,674 - SimuladorCarga.ExecutorComDiagnostico.CCL_343 - INFO - ✅ Teste de conexão OK: CCL_343
+2025-08-08 07:45:02,683 - SimuladorCarga.ExecutorComDiagnostico.CCL_343 - INFO - Iniciando 1 threads por consulta para CCL_343
+2025-08-08 07:45:03,220 - SimuladorCarga.ExecutorComDiagnostico.CCL_192 - INFO - ✅ Teste de conexão OK: CCL_192
+2025-08-08 07:45:03,222 - SimuladorCarga.ExecutorComDiagnostico.CCL_192 - INFO - Iniciando 1 threads por consulta para CCL_192
+2025-08-08 07:45:03,736 - SimuladorCarga.ExecutorComDiagnostico.CCL_242 - INFO - ✅ Teste de conexão OK: CCL_242
+2025-08-08 07:45:03,738 - SimuladorCarga.ExecutorComDiagnostico.CCL_242 - INFO - Iniciando 1 threads por consulta para CCL_242
+2025-08-08 07:45:04,207 - SimuladorCarga.ExecutorComDiagnostico.CCL_007 - INFO - ✅ Teste de conexão OK: CCL_007
+2025-08-08 07:45:04,212 - SimuladorCarga.ExecutorComDiagnostico.CCL_007 - INFO - Iniciando 1 threads por consulta para CCL_007
+2025-08-08 07:45:04,244 - SimuladorCarga.ExecutorComDiagnostico.CCL_071 - INFO - ✅ Teste de conexão OK: CCL_071
+2025-08-08 07:45:04,250 - SimuladorCarga.ExecutorComDiagnostico.CCL_126 - INFO - ✅ Teste de conexão OK: CCL_126
+2025-08-08 07:45:04,250 - SimuladorCarga.ExecutorComDiagnostico.CCL_071 - INFO - Iniciando 1 threads por consulta para CCL_071
+2025-08-08 07:45:04,257 - SimuladorCarga.ExecutorComDiagnostico.CCL_126 - INFO - Iniciando 1 threads por consulta para CCL_126
+2025-08-08 07:45:04,257 - SimuladorCarga.ExecutorComDiagnostico.CCL_092 - INFO - ✅ Teste de conexão OK: CCL_092
+2025-08-08 07:45:04,306 - SimuladorCarga.ExecutorComDiagnostico.CCL_092 - INFO - Iniciando 1 threads por consulta para CCL_092
+2025-08-08 07:47:11,799 - SimuladorCarga.CCL_239.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:47:23,719 - SimuladorCarga.CCL_124.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:47:26,905 - SimuladorCarga.CCL_240.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:47:27,249 - SimuladorCarga.CCL_242.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:47:27,875 - SimuladorCarga.CCL_126.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:47:28,086 - SimuladorCarga.CCL_343.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:47:29,062 - SimuladorCarga.CCL_192.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:47:40,470 - SimuladorCarga.CCL_186.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:47:56,267 - SimuladorCarga.ConexaoFirebird.CCL_028.TESTE - ERROR - Erro ao conectar - TESTE: ('Error while connecting to database:\n- SQLCODE: -923\n- connection rejected by remote interface', -923, 335544421)
+2025-08-08 07:47:56,277 - SimuladorCarga.ConexaoFirebird.CCL_031.TESTE - ERROR - Erro ao conectar - TESTE: ('Error while connecting to database:\n- SQLCODE: -923\n- connection rejected by remote interface', -923, 335544421)
+2025-08-08 07:47:56,283 - SimuladorCarga.ExecutorComDiagnostico.CCL_028 - ERROR - Falha no teste inicial de conexão para CCL_028
+2025-08-08 07:47:56,295 - SimuladorCarga.ExecutorComDiagnostico.CCL_031 - ERROR - Falha no teste inicial de conexão para CCL_031
+2025-08-08 07:47:56,814 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - WARNING - ⚠️ Executor iniciado mas sem conexão ativa para loja CCL_028
+2025-08-08 07:47:56,832 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - WARNING - ⚠️ Executor iniciado mas sem conexão ativa para loja CCL_031
+2025-08-08 07:48:01,483 - SimuladorCarga.CCL_007.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:48:06,346 - SimuladorCarga.CCL_126.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:48:29,309 - SimuladorCarga.CCL_089.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:48:30,323 - SimuladorCarga.CCL_341.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:48:41,144 - SimuladorCarga.CCL_071.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:48:47,492 - SimuladorCarga.CCL_125.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:48:49,279 - SimuladorCarga.CCL_334.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:48:51,640 - SimuladorCarga.CCL_091.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:48:54,353 - SimuladorCarga.CCL_069.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:48:57,531 - SimuladorCarga.CCL_239.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:01,651 - SimuladorCarga.CCL_343.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:01,684 - SimuladorCarga.CCL_240.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:02,154 - SimuladorCarga.CCL_242.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:02,419 - SimuladorCarga.CCL_126.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:02,568 - SimuladorCarga.CCL_003.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:49:03,153 - SimuladorCarga.CCL_124.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:03,305 - SimuladorCarga.CCL_192.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:03,413 - SimuladorCarga.CCL_092.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:49:12,660 - SimuladorCarga.CCL_186.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:26,300 - SimuladorCarga.CCL_192.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:49:26,524 - SimuladorCarga.CCL_007.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:34,919 - SimuladorCarga.CCL_343.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:49:36,580 - SimuladorCarga.CCL_089.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:38,176 - SimuladorCarga.CCL_341.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:39,435 - SimuladorCarga.CCL_239.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:49:44,517 - SimuladorCarga.CCL_242.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:49:45,377 - SimuladorCarga.CCL_240.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:49:45,611 - SimuladorCarga.CCL_126.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:49:46,073 - SimuladorCarga.CCL_343.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:49:46,585 - SimuladorCarga.CCL_192.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:49:48,106 - SimuladorCarga.CCL_071.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:49:51,193 - SimuladorCarga.CCL_124.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:49:51,234 - SimuladorCarga.CCL_189.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:50:01,392 - SimuladorCarga.CCL_125.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:50:04,305 - SimuladorCarga.CCL_334.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:50:04,346 - SimuladorCarga.CCL_186.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:50:08,718 - SimuladorCarga.CCL_126.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 200 consultas
+2025-08-08 07:50:10,944 - SimuladorCarga.CCL_091.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:50:22,691 - SimuladorCarga.CCL_069.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:50:24,210 - SimuladorCarga.CCL_239.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:50:26,993 - SimuladorCarga.CCL_007.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:50:28,645 - SimuladorCarga.CCL_003.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:50:29,275 - SimuladorCarga.CCL_242.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:50:29,585 - SimuladorCarga.CCL_240.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:50:30,477 - SimuladorCarga.CCL_192.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:50:31,878 - SimuladorCarga.CCL_126.SP_DRE.Thread0 - INFO - Thread 0 - SP_DRE: 100 consultas
+2025-08-08 07:50:32,115 - SimuladorCarga.CCL_343.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:50:33,318 - SimuladorCarga.CCL_069.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:50:34,396 - SimuladorCarga.CCL_126.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:50:34,508 - SimuladorCarga.CCL_126.PRODUTOS.Thread0 - INFO - Thread 0 - PRODUTOS: 100 consultas
+2025-08-08 07:50:37,634 - SimuladorCarga.CCL_092.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:50:45,436 - SimuladorCarga.CCL_124.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:50:45,759 - SimuladorCarga.CCL_341.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:50:46,236 - SimuladorCarga.CCL_089.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:50:51,101 - SimuladorCarga.CCL_002.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:50:55,420 - SimuladorCarga.CCL_186.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:50:56,967 - SimuladorCarga.ConexaoFirebird.CCL_036.TESTE - ERROR - Erro ao conectar - TESTE: ('Error while connecting to database:\n- SQLCODE: -923\n- connection rejected by remote interface', -923, 335544421)
+2025-08-08 07:50:56,972 - SimuladorCarga.ConexaoFirebird.CCL_033.TESTE - ERROR - Erro ao conectar - TESTE: ('Error while connecting to database:\n- SQLCODE: -923\n- connection rejected by remote interface', -923, 335544421)
+2025-08-08 07:50:56,998 - SimuladorCarga.ExecutorComDiagnostico.CCL_036 - ERROR - Falha no teste inicial de conexão para CCL_036
+2025-08-08 07:50:57,037 - SimuladorCarga.ExecutorComDiagnostico.CCL_033 - ERROR - Falha no teste inicial de conexão para CCL_033
+2025-08-08 07:50:57,561 - SimuladorCarga.ExecutorComDiagnostico.136.248.76.55:3050 - WARNING - ⚠️ Executor iniciado mas sem conexão ativa para loja CCL_036
+2025-08-08 07:50:57,569 - SimuladorCarga.ExecutorComDiagnostico.159.112.187.164:3050 - WARNING - ⚠️ Executor iniciado mas sem conexão ativa para loja CCL_033
+2025-08-08 07:51:03,225 - SimuladorCarga.CCL_071.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:51:03,780 - SimuladorCarga.CCL_239.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:51:09,717 - SimuladorCarga.CCL_242.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:51:10,079 - SimuladorCarga.CCL_240.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:51:12,673 - SimuladorCarga.CCL_192.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:51:13,901 - SimuladorCarga.CCL_343.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:51:16,327 - SimuladorCarga.CCL_334.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:51:23,082 - SimuladorCarga.CCL_126.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:51:23,811 - SimuladorCarga.CCL_007.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:51:26,064 - SimuladorCarga.CCL_125.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:51:32,507 - SimuladorCarga.CCL_242.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:51:38,732 - SimuladorCarga.CCL_239.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:51:43,070 - SimuladorCarga.CCL_124.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:51:44,067 - SimuladorCarga.CCL_091.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:51:48,116 - SimuladorCarga.CCL_186.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:51:50,396 - SimuladorCarga.CCL_239.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:51:51,310 - SimuladorCarga.CCL_186.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:51:53,129 - SimuladorCarga.CCL_341.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:51:55,927 - SimuladorCarga.CCL_240.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:51:57,328 - SimuladorCarga.CCL_003.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:51:58,608 - SimuladorCarga.CCL_242.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:51:59,770 - SimuladorCarga.CCL_192.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:51:59,805 - SimuladorCarga.CCL_240.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:52:00,795 - SimuladorCarga.CCL_089.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:52:03,881 - SimuladorCarga.CCL_126.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 300 consultas
+2025-08-08 07:52:05,619 - SimuladorCarga.CCL_343.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:52:07,827 - SimuladorCarga.CCL_069.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:52:10,301 - SimuladorCarga.CCL_189.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 200 consultas
+2025-08-08 07:52:15,727 - SimuladorCarga.CCL_003.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:52:22,158 - SimuladorCarga.CCL_126.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:52:27,967 - SimuladorCarga.CCL_007.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:52:28,778 - SimuladorCarga.CCL_092.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 300 consultas
+2025-08-08 07:52:29,131 - SimuladorCarga.CCL_071.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:52:33,182 - SimuladorCarga.CCL_239.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 700 consultas
+2025-08-08 07:52:35,726 - SimuladorCarga.CCL_334.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:52:43,762 - SimuladorCarga.CCL_186.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:52:44,581 - SimuladorCarga.CCL_124.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:52:45,382 - SimuladorCarga.CCL_242.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 700 consultas
+2025-08-08 07:52:45,416 - SimuladorCarga.CCL_192.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 200 consultas
+2025-08-08 07:52:45,855 - SimuladorCarga.CCL_192.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 700 consultas
+2025-08-08 07:52:46,888 - SimuladorCarga.CCL_240.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 700 consultas
+2025-08-08 07:52:53,467 - SimuladorCarga.CCL_343.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 700 consultas
+2025-08-08 07:53:01,057 - SimuladorCarga.CCL_343.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 200 consultas
+2025-08-08 07:53:01,888 - SimuladorCarga.CCL_341.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:53:06,294 - SimuladorCarga.CCL_125.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:53:06,456 - SimuladorCarga.CCL_091.SP_GERENCIAL.Thread0 - INFO - Thread 0 - SP_GERENCIAL: 100 consultas
+2025-08-08 07:53:13,474 - SimuladorCarga.CCL_070.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 100 consultas
+2025-08-08 07:53:17,943 - SimuladorCarga.CCL_126.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 700 consultas
+2025-08-08 07:53:19,289 - SimuladorCarga.CCL_239.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 800 consultas
+2025-08-08 07:53:21,651 - SimuladorCarga.CCL_089.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 500 consultas
+2025-08-08 07:53:25,117 - SimuladorCarga.CCL_003.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:53:27,797 - SimuladorCarga.CCL_007.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 600 consultas
+2025-08-08 07:53:28,095 - SimuladorCarga.CCL_091.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 400 consultas
+2025-08-08 07:53:30,949 - SimuladorCarga.CCL_192.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 800 consultas
+2025-08-08 07:53:31,828 - SimuladorCarga.CCL_242.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 800 consultas
+2025-08-08 07:53:33,483 - SimuladorCarga.CCL_240.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 800 consultas
+2025-08-08 07:53:36,476 - SimuladorCarga.CCL_186.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 700 consultas
+2025-08-08 07:53:42,471 - SimuladorCarga.CCL_343.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 800 consultas
+2025-08-08 07:53:44,413 - SimuladorCarga.CCL_124.EMPRESA.Thread0 - INFO - Thread 0 - EMPRESA: 700 consultas
+2025-08-08 07:53:46,128 - SimuladorCarga - INFO - === SIMULADOR DE CARGA FIREBIRD FINALIZADO ===

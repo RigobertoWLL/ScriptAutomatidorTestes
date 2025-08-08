@@ -4,7 +4,7 @@ class ConsultasSql:
     CONSULTA_EMPRESA = "SELECT * FROM EMPRESA"
     CONSULTA_PRODUTOS = "SELECT * FROM PRODUTOS"
     CONSULTA_CLIENTES = "SELECT * FROM CLIENTES"
-
+    
     @staticmethod
     def obter_todas_consultas():
         return [
@@ -14,7 +14,7 @@ class ConsultasSql:
             ConsultasSql.CONSULTA_PRODUTOS,
             ConsultasSql.CONSULTA_CLIENTES
         ]
-
+    
     @staticmethod
     def obter_consultas_com_nome():
         return {
